@@ -43,14 +43,9 @@ TEST(searchTest3_2, glhf2) {
     ASSERT_EQ(search(0, 4, 9, &x1, &x2), -1);
 }
 
-TEST(searchTest1_1, glhf1) {
-    double x1 = 0, x2 = 0;
-    ASSERT_EQ(search(4, 4, 1, &x1, &x2), 1);
-    ASSERT_EQ(x1, -0.5);
-    ASSERT_EQ(x2,0);
-}
 
-TEST(searchTest1_2, glhf1) {
+
+TEST(searchTest1_1, glhf1) {
     double x1 = 0, x2 = 0;
     ASSERT_EQ(search(1, 6, 9, &x1, &x2), 1);
     ASSERT_EQ(x1, -3);
