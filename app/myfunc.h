@@ -2,7 +2,7 @@
 #define MYFUNC_H
 
 
-int fibonachi(int num);
+
 
 int search(int a, int b, int c, double *x1, double *x2);
 
