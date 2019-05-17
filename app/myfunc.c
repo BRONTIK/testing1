@@ -20,8 +20,7 @@ int search(int a, int b, int c, double *x1, double *x2)
 
         if(!diskr)
         {
-            //*x1 = -b * 1.0/ (2 * a);
-            *x1 = -b/ (2 * a);
+            *x1 = -b * 1.0/ (2 * a);
             printf("x = %f", *x1);
             return 1;
         } else {
